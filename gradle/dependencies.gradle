@@ -3,6 +3,7 @@ ext {
     libs = [:]
 }
 versions += [
+        kotlin:"0.12.613",
         scala: "2.10",
         spark: "1.1.0"
 ]
@@ -17,6 +18,7 @@ libs += [
         jCommander: "com.beust:jcommander:1.30",
         jodaTime: "joda-time:joda-time:2.3",
         kafkaTest: "org.apache.kafka:kafka_2.10:0.8.0:test",
+        kotlin: "org.jetbrains.kotlin:kotlin-stdlib:$versions.kotlin",
         log4j: "log4j:log4j:1.2.17",
         openCsv: "net.sf.opencsv:opencsv:2.3",
         parquetAvro: "com.twitter:parquet-avro:1.0.0",
