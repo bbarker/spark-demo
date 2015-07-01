@@ -47,7 +47,7 @@ dependencies {
         libs.sparkMlLib,
         libs.sparkGraphX,
         libs.sparkStreaming,
-        libs.sparkStreamingKafka
+        libs.sparkStreamingKafka,
     ])
 
     testCompile([
