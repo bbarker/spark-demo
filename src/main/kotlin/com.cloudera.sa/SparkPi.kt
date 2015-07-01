@@ -1,5 +1,5 @@
 
-package com.cloudera.sa
+package com.cloudera.sa.kotlin.SparkPi
 
 public fun getHelloString() : String {
     return "Hello, world!"
