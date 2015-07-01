@@ -31,7 +31,7 @@ fun main(args : Array<String>) {
         val x = scala.math.random() * 2 - 1
         val y = scala.math.random() * 2 - 1
         if (x*x + y*y < 1) 1 else 0
-    }.reduce{a, b -> a + b}
+    }.reduce{a: Int, b: Int -> a + b}
 
     // Output & Close
     println("Pi is roughly " + 4.0 * count / n)
